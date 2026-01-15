@@ -6,7 +6,7 @@
         {
             bool detectError = true;
             List<int> list = [];
-            do
+            while (detectError)
             {
                 Console.WriteLine("Menu Options:\n");
                 Console.WriteLine("P - Print numbers");
@@ -165,7 +165,7 @@
                         detectError = true;
                         break;
                 }
-            }while (detectError);
+            }
         }
     }
 }
